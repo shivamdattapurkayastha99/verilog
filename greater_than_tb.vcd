@@ -1,0 +1,32 @@
+$date
+	Tue Dec 31 20:01:03 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module greater_than_tb $end
+$var wire 1 ! F $end
+$var reg 2 " A [1:0] $end
+$var reg 2 # B [1:0] $end
+$scope module uut $end
+$var wire 2 $ A [1:0] $end
+$var wire 2 % B [1:0] $end
+$var wire 1 ! F $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 %
+b1 $
+b0 #
+b1 "
+1!
+$end
+#320
