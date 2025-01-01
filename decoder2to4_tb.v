@@ -8,10 +8,10 @@ module decoder2to4_tb;
         $dumpfile("decoder2to4_tb.vcd");
         $dumpvars(0,decoder2to4_tb);
         
-        {A}=2`b00;#20;
-        {A}=2`b01;#20;
-        {A}=2`b10;#20;
-        {A}=2`b11;#20;
+        {A}=2'b00;#20;
+        {A}=2'b01;#20;
+        {A}=2'b10;#20;
+        {A}=2'b11;#20;
         
         $display("Test Complete");
     end
